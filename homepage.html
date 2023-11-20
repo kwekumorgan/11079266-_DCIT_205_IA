@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>   </title>
+    <style>
+      .header-University-logo{
+        height: 50px;
+        margin-right:600px;
+
+      }
+      body{
+        background-image:url('background.jpg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        position:center;
+
+      }
+      .Motto{
+        margin-top:500PX;
+        text-align:center;
+        font-style: arial;
+        font-size:40px;
+        color: white;
+      }
+      .container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  vertical-align:middle;
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+    </style>
+  </head>
+  <body>
+    <header>
+ <div>
+    <img class="header-University-logo" src="universitylogo.jpeg">
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+ </div> 
+    </header> 
+    <p class="Motto">Computer Science Department
+
+    </p>
+    
+
+
+  </body>
+</html>
