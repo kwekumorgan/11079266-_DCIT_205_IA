@@ -1,71 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UFT-8">
+      <meta http-equiv="X-UA-Compatible" content="IE-edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>   </title>
-    <style>
-      .header-University-logo{
-        height: 50px;
-        margin-right:600px;
-
-      }
-      body{
-        background-image:url('background.jpg');
-        background-size:cover;
-        background-repeat: no-repeat;
-        position:center;
-
-      }
-      .Motto{
-        margin-top:500PX;
-        text-align:center;
-        font-style: arial;
-        font-size:40px;
-        color: white;
-      }
-      .container {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.bar1, .bar2, .bar3 {
-  vertical-align:middle;
-  width: 35px;
-  height: 5px;
-  background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-/* Rotate first bar */
-.change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-
-/* Fade out the second bar */
-.change .bar2 {opacity: 0;}
-
-/* Rotate last bar */
-.change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <header>
  <div>
-    <img class="header-University-logo" src="universitylogo.jpeg">
-    <div class="container" onclick="myFunction(this)">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-    </div>
- </div> 
+    
+    <nav>
+      <img class="header-University-logo" src="universitylogo.jpeg">
+      <ul class="sidebar">
+        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Academics</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">StudentLife</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Online Event</a></li>
+        <li><a href="#">Depaertment Tour</a></li>
+        <li><a href="#">Contact Us</a></li>
+
+
+
+    </ul>
+
+        <ul>
+          <li><a href="#">Home</a></li>
+            
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+
+        </ul>
+
+    </nav>
     </header> 
     <p class="Motto">Computer Science Department
 
     </p>
-    
+   
+    <script>
+      function showSidebar(){
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar=document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
 
-
+      }
+    </script>
   </body>
 </html>
