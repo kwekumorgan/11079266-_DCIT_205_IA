@@ -68,7 +68,7 @@ nav li:first-child{
  }
   
   body{
-    background-image:url('background.jpg');
+    background-image:url('slide\ image\ 3.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     position:center;
@@ -82,12 +82,11 @@ nav li:first-child{
 
   }
   .Motto{
-    margin-top:400px;
-    text-align:center;
-    font-style: arial;
-    font-size:35px;
-    color: white;
-    margin-bottom: 50PX;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+      color: #fff; 
+      font-size: 40px;
+      margin-top: 400px;
   
   }
   .Online_Courses{
@@ -96,7 +95,9 @@ nav li:first-child{
     border:none;
     height:70px;
     margin-right:25px;
-    width:170px
+    width:170px;
+    margin-top:20px;
+
 
   }
   .Library{
@@ -107,10 +108,12 @@ nav li:first-child{
     margin-right:70px;
     width:170px;
     font-weight: 300px;
+    margin-top:20px;
 
 
   }
   .Course_Teachers{
+    margin-top:20px;
     margin-left:1px;
     background-color: rgb(207, 199, 199);
     border:none;
@@ -119,12 +122,15 @@ nav li:first-child{
     width:170px;
   }
     footer {
-      background-color: #333;
-      color: #fff;
+      background-color:#475C5A;
+     height: 50px;
+     margin-top: 26px;
+      color: white;
       padding: 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+
     }
 
     .footer-section {
@@ -137,6 +143,7 @@ nav li:first-child{
     }
 
     .footer-section img {
+      
       width: 30px;
       height: 30px;
       margin-right: 10px;
@@ -146,6 +153,8 @@ nav li:first-child{
       padding: 5px;
       width: 200px;
     }
+    
+   
 
 
 
