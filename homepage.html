@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>   </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homestyle.css">
   </head>
   <body>
 
@@ -51,12 +51,32 @@
     
       function hideSidebar() {
         const sidebar = document.querySelector('.sidebar');
-        sidebar.style.display = 'none';
-      }
+        sidebar.style.display = 'none';}
+        
+        document.addEventListener('DOMContentLoaded', function () {
+        const mottoText = document.getElementById('mottoText');
+        const sentences = [
+          "Empowering Innovation through Code and Logic.",
+          "Transforming Minds for a Digital Future.",
+          "Inspiring Creativity in the World of Technology.",
+          "Building a Community of Tech Enthusiasts.",
+          "Leading the Way in Computer Science Education."
+        ];
+        let currentIndex = 0;
+
+        function changeMotto() {
+          mottoText.textContent = sentences[currentIndex];
+          currentIndex = (currentIndex + 1) % sentences.length;
+        }
+
+        // Change motto every 3 seconds (adjust as needed)
+        setInterval(changeMotto, 10000);
+      });
+      
     </script>
     <div  class="Motto">
-    <p>Empowering Innovation through Code and Logic.
-    </p>
+      <p id="mottoText">Empowering Innovation through Code and Logic.</p>
+</p>
       </div>
       <div>
        <button class="Online_Courses">
@@ -64,7 +84,7 @@
         Online Courses
         <br>view more
       </button>
-      <button class="Course_Teachers"> Course Teachers  <br>view more </button>
+      <button class="Course_Teachers">Course Teachers <br>view more </button>
       <button class="Library"> Our Library <br>view more</button>
     </div>
     <footer>
@@ -83,7 +103,6 @@
         <a href="#" target="_blank"><img src="insta_logo.png" alt="Instagram"></a>
         <a href="#" target="_blank"><img src="fb_logo.png" alt="Facebook"></a>
         <a href="#" target="_blank"><img src="twitter_logo.png" alt="Twitter"></a>
-  
         <h3>Contact Us <img src="contact_logo.png" alt="Contact Icon"></h3>
         <p><a href="mailto:dcs.ug.edu.gh">info@computerscience.ug.edu.gh</a></p>
       </div>

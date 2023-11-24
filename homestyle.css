@@ -85,7 +85,7 @@ nav li:first-child{
     text-align: center;
     font-family: Tahoma, sans-serif;
       color: #fff; 
-      font-size: 40px;
+      font-size: 35px;
       margin-top: 400px;
   
   }
@@ -124,7 +124,7 @@ nav li:first-child{
     footer {
       background-color:#475C5A;
      height: 50px;
-     margin-top: 26px;
+     margin-top: 40px;
       color: white;
       padding: 20px;
       display: flex;
@@ -138,21 +138,32 @@ nav li:first-child{
       margin-right: 20px;
     }
 
-    .footer-section h3 {
-      margin-bottom: 10px;
-    }
-
+    
     .footer-section img {
-      
       width: 30px;
       height: 30px;
       margin-right: 10px;
     }
+      
+      .footer-section.right-section {
+        margin-top:30px;
+        text-align: right;
+        margin-bottom:25px;
+      }
+  
+      .footer-section.right-section h3 {
+        display: inline-block;
+      }
+  
+      .footer-section.right-section a {
+        margin-left: 10px;
+      }
 
     .subscribe-section input {
       padding: 5px;
       width: 200px;
     }
+    
     
    
 
