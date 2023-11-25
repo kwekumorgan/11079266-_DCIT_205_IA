@@ -120,7 +120,7 @@ nav li:first-child{
     footer {
      margin-top:500px;
       background-color:#475C5A;
-     height:170px;
+     height:140px;
      margin-top: 40px;
       color: white;
       padding: 20px;
@@ -169,6 +169,6 @@ nav li:first-child{
       color:#475C5A;
     }
   .footer-link{
-    font-weight:30px;
-    font-size:16px;
+    font-weight:10px;
+    font-size:25px;
   }
