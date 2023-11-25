@@ -66,13 +66,13 @@ nav li:first-child{
   right:0;
   
  }
-  
+ 
   body{
-    background-image:url('slide\ image\ 3.jpg');
+    background-image:url(white);
     background-size:cover;
     background-repeat: no-repeat;
     position:center;
-    font-family: "Poppins",sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size:14px;
     font-weight:300;
 
@@ -81,10 +81,11 @@ nav li:first-child{
   
 
   }
+
   .Motto{
     text-align: center;
-    font-family: Tahoma, sans-serif;
-      color: #fff; 
+    font-family: 'Lato', sans-serif;
+      color:black; 
       font-size: 35px;
       margin-top: 400px;
   
@@ -124,7 +125,7 @@ nav li:first-child{
     footer {
       background-color:#475C5A;
      height: 50px;
-     margin-top: 40px;
+     margin-top: 120px;
       color: white;
       padding: 20px;
       display: flex;
@@ -163,6 +164,7 @@ nav li:first-child{
       padding: 5px;
       width: 200px;
     }
+    
     
     
    
