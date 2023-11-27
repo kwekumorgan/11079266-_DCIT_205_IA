@@ -156,4 +156,23 @@ nav li:first-child{
     color:white;
   font-style: "Poppins",sans-serif;
   }
+  .Course-list{
+    justify-content: space-between;
+
+  }
+  .div1{
+    width:50%;
+    float:left;
+    
+
+  }
+  .div2{
+    
+    width:50%;
+    float:right;
+
+  }
+  .header3{
+    
+  }
   
