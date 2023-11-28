@@ -132,3 +132,16 @@ nav li:first-child{
       padding: 5px;
       width: 200px;
     }
+    .h3{
+
+        color:rgba(40, 37, 110, 0.904);
+        font-size:24px;
+        text-align:center;
+    }
+    .image-4{
+    object-fit:cover;
+    width:98%;
+    height:80%;
+    margin-left:6px;
+
+    }
