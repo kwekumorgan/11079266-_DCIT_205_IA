@@ -10,13 +10,13 @@ This project is my version of the Computer Science department's website in line 
 It consists of the;
 1. Homepage
 2. Undergraduate
-3. Ph.
+3. PhD
 4. Compssa
 5. Catalog
 6. About
 7. Contact Us
 8. Faculty
-9. Location
+9. Academics
 10. 
 
 ### Setting Up
@@ -41,3 +41,9 @@ Academic page.
 ![image](Academics.jpeg)
 Undergraduate Page.
 ![image](UndergraduatePage.jpeg)
+PhD Programmes
+![image](Phd.jpeg)
+Contact Us
+![image](Contacts%20Us.jpeg)
+About
+![image](About.jpeg)
