@@ -186,7 +186,14 @@ nav li:first-child{
     
     
   }
-  
+  .links{
+    text-decoration: none;
+    color:rgb(238, 63, 63)
+
+  }
+  .links:hover{
+    color:rgba(6,2,124,0.904)
+  }
 
   
   
